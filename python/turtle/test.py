@@ -1,0 +1,91 @@
+import turtle as t
+import math
+t.speed(10)
+
+#眼球
+t.setheading(0)
+t.right(90)
+tx=-130
+ty=200
+t.penup()
+t.goto(tx, ty)
+t.pendown()
+t.circle(40)
+
+    # 眉毛
+    #左边
+t.setheading(0)
+t.penup()
+t.goto(tx+15, ty+30)
+t.pendown()
+t.left(130)
+t.fd(25)
+t.right(90)
+t.fd(6)
+t.right(90)
+t.fd(27)
+
+t.setheading(0)
+t.penup()
+t.goto(tx+35, ty+40)
+t.pendown()
+t.left(90)
+t.fd(25)
+t.right(90)
+t.fd(6)
+t.right(90)
+t.fd(27)
+
+t.setheading(0)
+t.penup()
+t.goto(tx+60, ty+35)
+t.pendown()
+t.left(50)
+t.fd(25)
+t.right(90)
+t.fd(6)
+t.right(90)
+t.fd(27)
+    # 右边
+t.setheading(0)
+t.right(90)
+tx = 50
+ty = 200
+t.penup()
+t.goto(tx, ty)
+t.pendown()
+t.circle(40)
+
+t.setheading(0)
+t.penup()
+t.goto(tx - 25, ty + 70)
+t.pendown()
+t.left(130)
+t.fd(25)
+t.right(90)
+t.fd(6)
+t.right(90)
+t.fd(27)
+
+t.setheading(0)
+t.penup()
+t.goto(tx - 5, ty + 80)
+t.pendown()
+t.left(90)
+t.fd(25)
+t.right(90)
+t.fd(6)
+t.right(90)
+t.fd(27)
+
+t.setheading(0)
+t.penup()
+t.goto(tx + 20, ty + 75)
+t.pendown()
+t.left(50)
+t.fd(25)
+t.right(90)
+t.fd(6)
+t.right(90)
+t.fd(27)
+t.done()
